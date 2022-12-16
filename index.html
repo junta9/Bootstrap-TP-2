@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg text-bg-dark w-100 navbar-dark bg-dark opacity-75 fixed-top fs-4">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#"><img src="./hamburger.png" alt=""></a>
+        <span class="text-uppercase">The burger store</span>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav navbar-dark bg-dark">
+            <a class="mx-5 nav-link active" aria-current="page" href="#">Home</a>
+            <a class="mx-5 nav-link" href="#">Discover</a>
+            <a class="mx-5 nav-link" href="#">Menu</a>
+            <button type="button"
+              class="btn border border-warning border-3 btn-outline-warning mx-5 px-4 rounded-4 shadow-lg">Make
+              order</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="vw-100">
+    <!-- <div class="h-100">
+      <img src="./wild-forest.jpg" alt="" class="img-fluid w-100">
+      <div class="position-relative">
+        <div class="w-50 position-absolute bottom-0 end-0 p-lg-5 mb-lg-5">
+          <p class="display-3 text-white-50 d-none d-xl-block ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, cumque.
+          </p>
+          <button type="button" class="btn border border-warning border-3 btn-outline-warning mx-5 px-4 rounded-3">Order
+            now</button>
+          <button type="button"
+            class="btn border border-success border-3 btn-outline-success mx-5 px-4 rounded-3">Reserver</button>
+        </div>
+      </div>
+    </div> -->
+    <section class="row">
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./wild-forest.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./road.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./flowers.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="position-relative fixed-bottom d-none d-md-block">
+        <div class="w-50 position-absolute bottom-0 end-0 p-lg-5 mb-lg-5">
+          <p class="display-4 text-white d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, cumque.
+          </p>
+          <button type="button" class="btn border border-warning border-3 btn-outline-warning mx-5 px-4 rounded-3 opacity-75 bg-light">Order
+            now</button>
+          <button type="button"
+            class="btn border border-success border-3 btn-outline-success mx-5 px-4 rounded-3 opacity-75 bg-light">Reserver</button>
+        </div>
+      </div>
+      
+    </section>
+    <div class="d-none d-sm-block d-md-none row w-100 py-5">
+      <div class="opacity-75 text-center">
+        <p class="fs-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Voluptas, cumque.
+        </p>
+        <button type="button" class="btn border border-warning border-3 btn-outline-warning mx-5 px-4 rounded-3 opacity-75 bg-light">Order
+          now</button>
+        <button type="button"
+          class="btn border border-success border-3 btn-outline-success mx-5 px-4 rounded-3 opacity-75 bg-light">Reserver</button>
+      </div>
+    </div>
+
+    <section class="container text-black-50">
+
+      <article class="row border b-2 my-5">
+        <div class="col-lg-6 p-0">
+          <img src="./flowers.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem cum omnis similique non laborum aspernatur
+            nostrum aliquam deserunt mollitia illum impedit, reiciendis quae, dicta, animi libero? Ipsum dolorem ad
+            commodi possimus. A aspernatur mollitia tempore voluptatum blanditiis facere natus quia quas similique iure,
+            et, provident fugit delectus harum ipsa voluptates.</p>
+        </div>
+      </article>
+
+      <article class="row border b-2 my-5">
+        <div class="col-lg-6 order-lg-2 p-0">
+          <img src="./road.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem cum omnis similique non laborum aspernatur
+            nostrum aliquam deserunt mollitia illum impedit, reiciendis quae, dicta, animi libero? Ipsum dolorem ad
+            commodi possimus. A aspernatur mollitia tempore voluptatum blanditiis facere natus quia quas similique iure,
+            et, provident fugit delectus harum ipsa voluptates.</p>
+        </div>
+      </article>
+
+      <article class="row border b-2 my-5">
+        <div class="col-lg-6 p-0">
+          <img src="./wild-forest.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem cum omnis similique non laborum aspernatur
+            nostrum aliquam deserunt mollitia illum impedit, reiciendis quae, dicta, animi libero? Ipsum dolorem ad
+            commodi possimus. A aspernatur mollitia tempore voluptatum blanditiis facere natus quia quas similique iure,
+            et, provident fugit delectus harum ipsa voluptates.</p>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="container-fluid vw-100 p-5 gallery">
+
+      <h2 class="text-center text-white">Our brand new Dessert</h2>
+      <div class="row justify-content-center p-3 w-100">
+        <div class="btn-group w-50">
+          <a href="#" class="btn btn-outline-light border-0 active" aria-current="page">On Place</a>
+          <a href="#" class="btn btn-outline-light border-0">By Phone</a>
+          <a href="#" class="btn btn-outline-light border-0">Delivery</a>
+        </div>
+      </div>
+      <h2 class="text-center text-white">We have something for everyone</h2>
+      <p class="text-center text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, dolorem
+        voluptas exercitationem assumenda facere impedit incidunt voluptatum corporis tenetur voluptatem..</p>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card border-0 shadow-lg">
+            <img src="./flowers.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sequi repudiandae?
+                Ipsum ullam libero ad quam non, dolorum magni suscipit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 shadow-lg">
+            <img src="./road.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sequi repudiandae?
+                Ipsum ullam libero ad quam non, dolorum magni suscipit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 shadow-lg">
+            <img src="./wild-forest.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sequi repudiandae?
+                Ipsum ullam libero ad quam non, dolorum magni suscipit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 shadow-lg">
+            <img src="./road.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sequi repudiandae?
+                Ipsum ullam libero ad quam non, dolorum magni suscipit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="row position-relative  justify-content-center align-items-center">
+      <img src="./wild-forest.jpg" alt="" class="img-fluid opacity-75">
+      <form class="row text-center h-auto position-absolute w-100 p-5">
+        <h1 class="text-uppercase text-white pb-sm-3 mb-xxl-5 pt-lg-5 fs-2">contact us</h1>
+        <div class="col-4 offset-2">
+          <div class="input-group input-group-lg mb-3">
+            <span class="input-group-text" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+              </svg></span>
+            <input type="text" class="form-control" placeholder="John Doe" aria-label="Username"
+              aria-describedby="addon-wrapping">
+          </div>
+          <div class="input-group input-group-lg mb-3">
+            <label class="input-group-text" for="inputGroupSelect01"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                height="30" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+                <path
+                  d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+              </svg></label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Choose a Card</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="input-group input-group-lg mb-3">
+            <label class="input-group-text" for="inputGroupSelect01"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                height="30" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+              </svg></label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>How many guest ?</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="input-group input-group-lg mb-3">
+            <input type="email" class="form-control" placeholder="Mail" aria-label="Username"
+              aria-describedby="addon-wrapping">
+            <span class="input-group-text" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                height="30" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                <path
+                  d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+                <path
+                  d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+              </svg></span>
+          </div>
+          <div class="input-group input-group-lg mb-3">
+            <input type="tel" class="form-control" placeholder="Phone" aria-label="Username"
+              aria-describedby="addon-wrapping">
+            <span class="input-group-text" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                height="30" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg></span>
+          </div>
+          <div class="input-group input-group-lg mb-3">
+            <input type="text" class="form-control" placeholder="City" aria-label="Username"
+              aria-describedby="addon-wrapping">
+            <span class="input-group-text" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z" />
+              </svg></span>
+          </div>
+        </div>
+
+        <div>
+          <button id="envoyer" type="button" class="btn btn-warning text-white w-50 fs-3" style="height: 60px;">Make
+            Reservation</button>
+        </div>
+      </form>
+    </section>
+    <section class="p-5">
+      <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe src="https://maps.google.com/maps?q=paris&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+          style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container-fluid text-center pb-5">
+    <nav class="row w-100">
+      <ul class="col list-unstyled">
+        <li class="fw-bold fs-3">Restaurant</li>
+        <li>Boulogne</li>
+        <li>Paris</li>
+        <li>Marseille</li>
+        <li>Toulouse</li>
+      </ul>
+      <ul class="col list-unstyled">
+        <li class="fw-bold fs-3">Partners</li>
+        <li>French Burgers</li>
+        <li>Trip Advisor</li>
+        <li>Bio Life</li>
+        <li>Soft Drinks</li>
+      </ul>
+      <ul class="col list-unstyled">
+        <li class="fw-bold fs-3">Offers</li>
+        <li>Subscription</li>
+        <li>Special Guest</li>
+        <li>Events</li>
+        <li>Privatization</li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
